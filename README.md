@@ -5,7 +5,9 @@ I've found that, for saving simple data, the SharedPreferences class is great. T
 integrate that with Android Wear through automatic syncing, Google Drive, and Google Play Games.
 
 ## Gradle
-This will be available on Gradle soon.
+You can get the vanilla SettingsManager through Gradle:
+
+    compile 'com.github.fleker:com.felkertech.settingsmanager:1.0.0'
 
 ## SettingsManager
 
