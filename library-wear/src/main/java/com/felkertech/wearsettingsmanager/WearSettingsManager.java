@@ -35,10 +35,6 @@ import java.util.Set;
  *   * Support for syncing data to wearables
  */
 public class WearSettingsManager extends SettingsManager {
-    private SharedPreferences sharedPreferences;
-    private SharedPreferences.Editor editor;
-    private String TAG = "PreferenceManager";
-    private Context mContext;
     public WearSettingsManager(Activity activity) {
         super(activity);
     }

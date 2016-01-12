@@ -23,10 +23,10 @@ import java.util.Set;
  *   * Support for syncing data to wearables
  */
 public class SettingsManager {
-    private SharedPreferences sharedPreferences;
-    private SharedPreferences.Editor editor;
-    private String TAG = "PreferenceManager";
-    private Context mContext;
+    protected SharedPreferences sharedPreferences;
+    protected SharedPreferences.Editor editor;
+    protected String TAG = "PreferenceManager";
+    protected Context mContext;
     public SettingsManager(Activity activity) {
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(activity);
         mContext = activity;
