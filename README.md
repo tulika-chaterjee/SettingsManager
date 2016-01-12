@@ -7,7 +7,7 @@ integrate that with Android Wear through automatic syncing, Google Drive, and Go
 ## Gradle
 You can get the vanilla SettingsManager through Gradle:
 
-    compile 'com.github.fleker:settingsmanager:1.1.1'
+    compile 'com.github.fleker:settingsmanager:1.1.2'
 
 ## SettingsManager
 
@@ -41,11 +41,11 @@ and read data.
 ### Android Wear
 To use Android Wear, use the `WearSettingsManager` class by including the following library **on your phone**:
 
-    compile 'com.github.fleker:settingsmanager-wear:1.1.1'
+    compile 'com.github.fleker:settingsmanager-wear:1.1.2'
     
 Your watch will require a slightly separate version of the library.
 
-    compile 'com.github.fleker:settingsmanager-wearable:1.1.1'
+    compile 'com.github.fleker:settingsmanager-wearable:1.1.2'
 
 The `WearSettingsManager` is an extension of the `SettingsManager` that, when a value is changed, syncs all of the data. This works
 both ways, if data is changed on the phone or on the watch. By including the library, the necessary listeners will be added to the project on each device.
