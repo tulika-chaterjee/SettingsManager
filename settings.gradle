@@ -1,1 +1,1 @@
-include ':app', ':library', ':library-wear', ':library-wearable'
+include ':app', ':library', ':library-wear', ':library-wearable', ':library-common'

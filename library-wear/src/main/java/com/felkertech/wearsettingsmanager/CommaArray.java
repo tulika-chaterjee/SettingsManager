@@ -1,4 +1,4 @@
-package com.felkertech.settingsmanager;
+package com.felkertech.wearsettingsmanager;
 
 import android.util.Log;
 

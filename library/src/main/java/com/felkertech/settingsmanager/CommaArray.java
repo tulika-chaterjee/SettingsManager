@@ -143,9 +143,7 @@ public class CommaArray {
         CommaArray template = new CommaArray("");
         for(int i=start;i<end;i++) {
             template.add(array.get(i));
-//            Log.d(TAG, "Add "+array.get(i));
         }
-//        Log.d(TAG, template.toString());
         return template;
     }
 
@@ -165,7 +163,6 @@ public class CommaArray {
             previous = Long.valueOf(get(i));
             me = Long.valueOf(get(i+1));
             deltas.add(me-previous);
-//            Log.d("virtualpets:commaarray", "Inserting diff of "+me+" & "+previous+"  "+(me-previous));
         }
         Long sum = 0l;
         for(Long l: deltas) {
