@@ -8,8 +8,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 23
-        versionCode 1
         versionName "1.0"
+        versionCode 1
     }
     buildTypes {
         release {
@@ -17,6 +17,23 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    /*productFlavors {
+        main {
+//            applicationId "com.felkertech.settingsmanager"
+            versionName "1.0"
+            versionCode 1
+        }
+        wear {
+//            applicationId "com.felkertech.settingsmanager-wear"
+            versionName "1.0"
+            versionCode 1
+        }
+        wearable {
+//            applicationId "com.felkertech.settingsmanager-wearable"
+            versionName "1.0"
+            versionCode 1
+        }
+    }*/
 }
 
 dependencies {
